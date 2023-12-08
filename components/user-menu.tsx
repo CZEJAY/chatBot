@@ -53,12 +53,12 @@ export function UserMenu({ user }: UserMenuProps) {
           <DropdownMenuSeparator />
           <DropdownMenuItem asChild>
             <a
-              href="https://vercel.com"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-between w-full text-xs"
+              className="inline-flex items-center justify-between w-full text-xs cursor-pointer"
             >
-              Vercel Homepage
+              Cipherplus Homepage
               <IconExternalLink className="w-3 h-3 ml-auto" />
             </a>
           </DropdownMenuItem>
@@ -68,7 +68,7 @@ export function UserMenu({ user }: UserMenuProps) {
                 callbackUrl: '/'
               })
             }
-            className="text-xs"
+            className="text-xs cursor-pointer"
           >
             Log Out
           </DropdownMenuItem>
