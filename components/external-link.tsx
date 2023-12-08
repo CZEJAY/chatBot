@@ -1,10 +1,14 @@
-export function ExternalLink({
-  href,
-  children
-}: {
+import React from "react"
+
+type ExternalLinkProps = {
   href: string
   children: React.ReactNode
-}) {
+}
+
+export const ExternalLink: React.FC<ExternalLinkProps> = ({
+  href,
+  children
+}) => {
   return (
     <a
       href={href}

@@ -12,7 +12,7 @@ export function FooterText({ className, ...props }: React.ComponentProps<'p'>) {
       )}
       {...props}
     >
-      <ExternalLink href='#' children="Cipherplus"/> {' '} AI chatbot &copy; All Rights Reservered, 2023{' '}.
+      <ExternalLink href='#'>Cipherplus</ExternalLink> {' '} AI chatbot &copy; All Rights Reservered, 2023{' '}.
     </p>
   )
 }
